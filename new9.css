@@ -1,0 +1,20 @@
+﻿#naglowek_glowna {
+
+color:blue;
+font-weight: bold;
+}
+
+#naglowek_kontakt {
+color: green;
+font-style: italic;
+}
+
+.lista_na_czerwono {
+color:red;
+}
+
+.lista_na_zielono {
+color:green;
+}
+
+dd
