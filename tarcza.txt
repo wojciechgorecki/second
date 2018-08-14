@@ -9,16 +9,16 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            string imie;
-            int podstawa;
-            int podwyzka;
-            int wynik1;
-            int wynik2;
-            int wynik3;
+            string imie;bbbbbbbbbbbbbbbb
+            int podstawa;bbbbbbbbbbbbbbbbb
+            int podwyzka;aaaaaaaaaa
+            int wynik1;aaaaaaaaaaa
+            int wynik2;aaaaaaaaaaaa
+            int wynik3;bbbbbbbbbbbbbbbb
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Hello! Jak masz na imiê?");
-            imie = Console.ReadLine();
-            Console.WriteLine("Czeœæ " + imie + "!");
+            imie = Console.ReadLine();bbbbbbbbbbbbbbbbbbbb
+            Console.WriteLine("Czeœæ " + imie + "!");bbbbbbbbbbbbbbbbb
             // zmieni³em nieznaczenie poni¿sze. Jeœli chcesz daæ "ENTER" znaczy znak nowej lini to mo¿esz u¿yæ Environment.NewLine (jest to zalecany sposób, 
             // bo wstawi odpowiedni znak nowej lini w zale¿noœci od systemu operacyjnego na którym odpalasz program). Mo¿na u¿yæ te¿ \n lub \r\n  tak jak w dwóch poni¿szych zakomentowanych linijkach
             // ale na niektórych systemach mo¿e coœ nie zadzia³aæ, wiêc u¿ywaj tego pierwszego sposobu.
