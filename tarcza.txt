@@ -9,12 +9,12 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            string imie;
-            int podstawa;
-            int podwyzka;
-            int wynik1;
-            int wynik2;
-            int wynik3;
+            string imie;aaaaaaaaaaaaaaa
+            int podstawa;aaaaaaaaaaaaaaaaaa
+            int podwyzka;aaaaaaaaaaaaaaaaa
+            int wynik1;aaaaaaaaaaaaaaaa
+            int wynik2;aaaaaaaaaaaaaaaa
+            int wynik3;aaaaaaaaaaaaa
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Hello! Jak masz na imiê?");
             imie = Console.ReadLine();
