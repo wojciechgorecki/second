@@ -1,0 +1,28 @@
+using System.Text;
+using System.Threading.Tasks;
+
+#endregion koniec regionu Usingi - rzadko kiedy daje siê opis przy zamykaniu regionu
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string imie;
+            int podstawa;
+            int podwyzka;
+            int wynik1;
+            int wynik2;
+            int wynik3;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Hello! Jak masz na imiê?");
+            imie = Console.ReadLine();
+            Console.WriteLine("Czeœæ " + imie + "!");
+            // zmieni³em nieznaczenie poni¿sze. Jeœli chcesz daæ "ENTER" znaczy znak nowej lini to mo¿esz u¿yæ Environment.NewLine (jest to zalecany sposób, 
+            // bo wstawi odpowiedni znak nowej lini w zale¿noœci od systemu operacyjnego na którym odpalasz program). Mo¿na u¿yæ te¿ \n lub \r\n  tak jak w dwóch poni¿szych zakomentowanych linijkach
+            // ale na niektórych systemach mo¿e coœ nie zadzia³aæ, wiêc u¿ywaj tego pierwszego sposobu.
+            Console.WriteLine("W tym programie pomogê Ci obliczyæ ile bêdziesz" + Environment.NewLine + "zarabiaæ jeœli codziennie bêdziesz dostawa³ podwy¿kê :)");
+            //Console.WriteLine("W tym programie pomogê Ci obliczyæ ile bêdziesz \nzarabiaæ jeœli codziennie bêdziesz dostawa³ podwy¿kê :)");
+            //Console.WriteLine("W tym programie pomogê Ci obliczyæ ile bêdziesz \r\nzarabiaæ jeœli codziennie bêdziesz dostawa³ podwy¿kê :)");
+            
